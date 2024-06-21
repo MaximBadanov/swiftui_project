@@ -1,6 +1,5 @@
 import Combine
 
 protocol NetworkServiceProtocol {
-    func makeRequest<T: Decodable>(requestModel: RequestModel<T>) -> AnyPublisher<T,Error>
-    func makeRequest<T: Decodable>(requestModel: RequestModel<T>, genreIDs: [String]) -> AnyPublisher<T,Error>
+    func makeUniversalRequest<T: Decodable>(requestModel: RequestModelUniversal<T>) -> AnyPublisher<T, Error>
 }

@@ -1,7 +1,6 @@
 import Combine
 import SwiftUI
 
-
 class DataManager: DataManagerProtocol {
     var network: NetworkServiceProtocol
     
@@ -12,12 +11,7 @@ class DataManager: DataManagerProtocol {
         self.network = network
     }
     
-    func fetchGenres<T: Decodable>(requestModel: RequestModel<T>) -> AnyPublisher<T, Error> {
-        return network.makeRequest(requestModel: requestModel)
-    }
-    
-    func fetchMovieByGenres<T: Decodable>(requestModel: RequestModel<T>,
-                                          genreIDs: [String]) -> AnyPublisher<T, Error> {
-        return network.makeRequest(requestModel: requestModel, genreIDs: genreIDs)
+    func fetchData<T: Decodable>(requestModel: RequestModelUniversal<T>) -> AnyPublisher<T, Error> {
+        return network.makeUniversalRequest(requestModel: requestModel)
     }
 }

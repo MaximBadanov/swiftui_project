@@ -36,7 +36,7 @@ struct MovieView: View {
             Spacer()
             Text(title)
                 .textStyle(
-                    size: UISize.size32,
+                    size: UISize.size24,
                     weight: .heavy
                 )
                 .lineLimit(lineLimit)
