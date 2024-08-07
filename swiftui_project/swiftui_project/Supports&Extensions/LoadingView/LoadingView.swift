@@ -1,6 +1,5 @@
 import SwiftUI
 
-
 struct LoadingView: View {
     private let scaleSize: CGFloat = 2
     

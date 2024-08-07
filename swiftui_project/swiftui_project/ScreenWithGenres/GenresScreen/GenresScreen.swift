@@ -32,7 +32,8 @@ struct GenresScreen: View {
             }
             .padding(.bottom, UISize.size16)
         }
-        .isLoading(isLoading: genreScreenViewModel.isLoading)
+        .isLoading(isLoading: genreScreenViewModel.isLoading,
+                   type: .loadingView)
         .onAppear {
             genresWithScrollViewModel.$selectedGenres
                 .assign(to: &genreScreenViewModel.$genresId)

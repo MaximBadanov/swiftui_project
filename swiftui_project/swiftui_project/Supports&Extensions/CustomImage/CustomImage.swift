@@ -1,6 +1,5 @@
 import SwiftUI
 
-
 struct CustomImage: View {
     let imageName: String
     let renderingMode: Image.TemplateRenderingMode?

@@ -1,10 +1,3 @@
-//
-//  NoPosterScreen.swift
-//  swiftui_project
-//
-//  Created by Максим Баданов on 25.07.2024.
-//
-
 import SwiftUI
 
 struct NoPosterScreen: View {

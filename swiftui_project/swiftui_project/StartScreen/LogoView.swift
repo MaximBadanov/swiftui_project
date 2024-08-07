@@ -1,6 +1,5 @@
 import SwiftUI
 
-
 struct LogoView: View {
     var body: some View {
         VStack(spacing: UISize.size24) {

@@ -1,6 +1,5 @@
 import SwiftUI
 
-
 struct TextStyle: ViewModifier {
     var size: CGFloat
     var weight: Font.Weight

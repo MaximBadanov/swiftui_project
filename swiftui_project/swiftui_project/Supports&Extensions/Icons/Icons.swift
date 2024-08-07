@@ -1,5 +1,3 @@
-
-
 enum Icons: String {
     case tv = "tv"
     case tvAndHiFiSpeaker = "tv.and.hifispeaker.fill"

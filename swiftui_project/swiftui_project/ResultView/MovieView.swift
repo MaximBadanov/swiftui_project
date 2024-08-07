@@ -6,6 +6,7 @@ struct MovieView: View {
     let genres: String
     
     private let lineLimit: Int = 3
+    
     @State private var scaleEffect: Double = 1
     
     var body: some View {

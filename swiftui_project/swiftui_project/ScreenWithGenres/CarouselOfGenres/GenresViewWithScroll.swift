@@ -17,6 +17,7 @@ struct GenresViewWithScroll: View {
                         }
                     )
                 }
+                .isLoading(isLoading: viewModel.isLoading, type: .emptyGenresView)
             }
         }
         .onAppear {
@@ -24,4 +25,3 @@ struct GenresViewWithScroll: View {
         }
     }
 }
-

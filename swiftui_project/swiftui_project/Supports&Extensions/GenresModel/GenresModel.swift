@@ -1,5 +1,4 @@
-struct GenresResponse: Decodable{
-    
+struct GenresResponse: Decodable {
     let genres: [GenreResponseModel]
 }
 

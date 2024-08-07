@@ -28,6 +28,7 @@
 		9D517B102B68016300477AB2 /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D517B0F2B68016300477AB2 /* HTTPMethods.swift */; };
 		9D517B142B68064000477AB2 /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D517B132B68064000477AB2 /* Headers.swift */; };
 		9D517B162B680B4B00477AB2 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D517B152B680B4B00477AB2 /* Urls.swift */; };
+		9D6560ED2C5FE31B00A5911B /* WhileLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6560EC2C5FE31B00A5911B /* WhileLoading.swift */; };
 		9D6859252B45A59C00A7C2CD /* GenreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6859242B45A59C00A7C2CD /* GenreButton.swift */; };
 		9D68A7822B08FA7D005F546A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D68A7812B08FA7D005F546A /* ColorExtension.swift */; };
 		9D6BF22A2C31EDA6004E76CB /* ExtensionEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6BF2292C31EDA6004E76CB /* ExtensionEncodable.swift */; };
@@ -35,6 +36,7 @@
 		9D83075B2B27754D00C6B377 /* GenresViewWithScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D83075A2B27754D00C6B377 /* GenresViewWithScroll.swift */; };
 		9D8350762B9623BA0093D082 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8350752B9623BA0093D082 /* DataManager.swift */; };
 		9D89F8612B13A70800FE23BE /* TextStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D89F8602B13A70800FE23BE /* TextStyleModifier.swift */; };
+		9D92E1752C580E2900001FE4 /* EmptyScrollwWithGenres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D92E1742C580E2900001FE4 /* EmptyScrollwWithGenres.swift */; };
 		9D95B7E82B62C72D00CF660F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D95B7E72B62C72D00CF660F /* NetworkService.swift */; };
 		9D95B7EA2B62C78700CF660F /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D95B7E92B62C78700CF660F /* NetworkServiceProtocol.swift */; };
 		9D97D84A2AFA52BE003F10B5 /* swiftui_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D97D8492AFA52BE003F10B5 /* swiftui_projectApp.swift */; };
@@ -95,6 +97,7 @@
 		9D517B0F2B68016300477AB2 /* HTTPMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
 		9D517B132B68064000477AB2 /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
 		9D517B152B680B4B00477AB2 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		9D6560EC2C5FE31B00A5911B /* WhileLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhileLoading.swift; sourceTree = "<group>"; };
 		9D6859242B45A59C00A7C2CD /* GenreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButton.swift; sourceTree = "<group>"; };
 		9D68A7812B08FA7D005F546A /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		9D6BF2292C31EDA6004E76CB /* ExtensionEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionEncodable.swift; sourceTree = "<group>"; };
@@ -102,6 +105,7 @@
 		9D83075A2B27754D00C6B377 /* GenresViewWithScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresViewWithScroll.swift; sourceTree = "<group>"; };
 		9D8350752B9623BA0093D082 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		9D89F8602B13A70800FE23BE /* TextStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleModifier.swift; sourceTree = "<group>"; };
+		9D92E1742C580E2900001FE4 /* EmptyScrollwWithGenres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyScrollwWithGenres.swift; sourceTree = "<group>"; };
 		9D95B7E72B62C72D00CF660F /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		9D95B7E92B62C78700CF660F /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
 		9D97D8462AFA52BE003F10B5 /* swiftui_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -258,7 +262,7 @@
 				9D3DCB052BF3CAE6007F5E96 /* MovieModel */,
 				9D1BC7852B1E5374006B8BCF /* Text */,
 				9DC557712BED1BED00DCA140 /* StringExtension */,
-				9D9DC3472C52C7D200F9D1C7 /* Subviews */,
+				9D9DC3472C52C7D200F9D1C7 /* LoadingViews */,
 				9D83506D2B96185E0093D082 /* UISize */,
 			);
 			path = "Supports&Extensions";
@@ -403,12 +407,14 @@
 			path = swiftui_projectUITests;
 			sourceTree = "<group>";
 		};
-		9D9DC3472C52C7D200F9D1C7 /* Subviews */ = {
+		9D9DC3472C52C7D200F9D1C7 /* LoadingViews */ = {
 			isa = PBXGroup;
 			children = (
 				9D9DC3482C52C80E00F9D1C7 /* NoPosterScreen.swift */,
+				9D92E1742C580E2900001FE4 /* EmptyScrollwWithGenres.swift */,
+				9D6560EC2C5FE31B00A5911B /* WhileLoading.swift */,
 			);
-			path = Subviews;
+			path = LoadingViews;
 			sourceTree = "<group>";
 		};
 		9DB350D72AFE52B600283DE9 /* StartScreen */ = {
@@ -609,6 +615,7 @@
 				9D49AA7D2B5075AA00FFA152 /* LoadingView.swift in Sources */,
 				9D8307572B275CD900C6B377 /* GenresScreen.swift in Sources */,
 				9D1BC71E2B18CD6C006B8BCF /* ButtonStyleExtension.swift in Sources */,
+				9D92E1752C580E2900001FE4 /* EmptyScrollwWithGenres.swift in Sources */,
 				9DCBCD3C2B03DCF200BE8C37 /* LogoView.swift in Sources */,
 				9D3DCB072BF3CAF5007F5E96 /* MovieModel.swift in Sources */,
 				9D49AA742B50690800FFA152 /* ResultView.swift in Sources */,
@@ -634,6 +641,7 @@
 				9D1BC7202B18CDC7006B8BCF /* ViewTextExtension.swift in Sources */,
 				9D1BC71A2B18C9A5006B8BCF /* Icons.swift in Sources */,
 				9D3DCB092BF3CB82007F5E96 /* GenreScreenViewModelProtocol.swift in Sources */,
+				9D6560ED2C5FE31B00A5911B /* WhileLoading.swift in Sources */,
 				9D517B162B680B4B00477AB2 /* Urls.swift in Sources */,
 				9D49AA7F2B55854700FFA152 /* LoadingViewExtension.swift in Sources */,
 				9D1BC7182B18C93C006B8BCF /* AppLogo.swift in Sources */,

@@ -1,6 +1,5 @@
 import SwiftUI
 
-
 struct GenreButtonStyle: ButtonStyle {
     let backgroundColor: Color
     let isSelected: Bool

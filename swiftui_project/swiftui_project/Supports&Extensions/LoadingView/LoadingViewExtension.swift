@@ -2,9 +2,9 @@ import SwiftUI
 
 extension View {
     @ViewBuilder
-    func isLoading(isLoading: Bool) -> some View {
+    func isLoading(isLoading: Bool, type: WhileLoading) -> some View {
         if isLoading {
-            LoadingView()
+            type.view
         } else {
             self
         }

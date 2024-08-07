@@ -4,6 +4,7 @@ import SwiftUI
 class GenresWithScrollViewModel: ObservableObject {
     @Published var fetchedGenres: [GenreResponseModel] = []
     @Published var selectedGenres: [String] = []
+    @Published var isLoading: Bool = true
     
     private var subscriber: AnyCancellable?
     private let dataManager: DataManager
@@ -43,6 +44,7 @@ extension GenresWithScrollViewModel: GenresViewWithScrollViewModelProtocol {
                 }
             }, receiveValue: { data in
                 self.fetchedGenres = data.genres
+                self.isLoading = false
             })
     }
 }

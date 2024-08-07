@@ -1,6 +1,5 @@
 import SwiftUI
 
-
 struct StartScreen: View {
     @State private var goNextScreen = false
     

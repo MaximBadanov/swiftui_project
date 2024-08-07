@@ -7,7 +7,6 @@ struct MovieResponseModel: Decodable {
     let poster: String
     let genres: [Int]
     
-    
     enum CodingKeys: String, CodingKey {
         case title
         case poster = "poster_path"

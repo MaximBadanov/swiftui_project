@@ -1,6 +1,5 @@
 import SwiftUI
 
-
 extension View {
     func textStyle(size: CGFloat,
                    weight: Font.Weight) -> some View {
