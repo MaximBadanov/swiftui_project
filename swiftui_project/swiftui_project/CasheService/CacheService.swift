@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-final class CacheService<T: AnyObject>: CacheProtocol {
+final class CacheService<T: AnyObject>: CacheServiceProtocol {
     private let cache = NSCache<NSString, T>()
     
     func getObject(forKey key: String) -> T? {

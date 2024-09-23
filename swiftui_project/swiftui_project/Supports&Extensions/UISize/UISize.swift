@@ -1,6 +1,5 @@
 import SwiftUI
 
-
 struct UISize {
     static var size8: CGFloat = 8
     static var size16: CGFloat = 16

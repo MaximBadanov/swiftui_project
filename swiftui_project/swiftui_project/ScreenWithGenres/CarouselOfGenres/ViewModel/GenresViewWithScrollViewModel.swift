@@ -29,10 +29,12 @@ class GenresWithScrollViewModel: ObservableObject {
 
 extension GenresWithScrollViewModel: GenresViewWithScrollViewModelProtocol {    
     func fetchGenres() {
-        let requestModel = RequestModelUniversal<GenresResponse>(urlString: Urls.moviedbGenres.rawValue,
-                                                                 httpMethod: HTTPMethods.get,
-                                                                 header: Headers.movieDB.header,
-                                                                 parameters: nil)
+        let requestModel = RequestModelUniversal<GenresResponse>(
+            urlString: Urls.moviedbGenres.rawValue,
+            httpMethod: HTTPMethods.get,
+            header: Headers.movieDB.header,
+            parameters: nil
+        )
         subscriber = dataManager.fetchData(requestModel: requestModel)
             .receive(on: DispatchQueue.main)
             .sink(receiveCompletion: { completion in

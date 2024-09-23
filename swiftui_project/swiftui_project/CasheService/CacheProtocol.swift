@@ -1,6 +1,6 @@
 import Foundation
 
-protocol CacheProtocol {
+protocol CacheServiceProtocol {
     associatedtype T: AnyObject
 
     func getObject(forKey key: String) -> T?
